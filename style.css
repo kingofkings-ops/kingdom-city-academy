@@ -39,9 +39,14 @@ header .container{
 }
 
 .logo{
-    color:#D4AF37;
-    font-size:30px;
-    font-weight:bold;
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
+.logo img{
+    height:70px;
+    width:auto;
 }
 
 nav a{
